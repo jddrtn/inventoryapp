@@ -17,6 +17,17 @@ The Inventory Management System is a Java-based application that utilizes Swing 
 **SQL Database:** Stores inventory data, such as product names, IDs, quantities, and prices.
 **JDBC (Java Database Connectivity):** Used to connect and interact with the SQL database.
 
+### **How to Install**
+1. First, open the **Inventory Management System** folder in IntelliJ IDE to access the source code.
+   
+2. In IntelliJ, go to File > Project Structure. In the Libraries tab under Project Settings, click the + button to add a new Java Library. Add the sql connector JAR file. Press Apply and then OK.
+   
+3. Open **XAMPP Control Panel** (or any program on your system to run SQL).
+   
+4. Start the Apache and MySQL servers. Click Admin next to MySQL to open the database in browser.
+
+---- TBC ----
+
 ### **How to Use**
 After launching the program, you will be asked to enter a username and password. Enter **admin** in the username box and **password** in the password box (all lowercase).
 Once the application is running:
